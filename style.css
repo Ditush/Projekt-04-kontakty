@@ -3,9 +3,32 @@
 
 body {
 	font-family: sans-serif;
-	font-size: 14px;
-}
+	font-size: 14px;}
 
 h1 {
-	text-align: center;
-}
+	text-align: center;}
+
+.tym {width: 100%;}
+
+.osoba {
+	border: 1px solid lightseagreen;
+	border-radius: 5%; 
+	margin: 10px; 
+	padding: 30px;
+	width: 100%;}
+
+.osoba img {
+	border-radius: 50%; 
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 20px;}
+
+.popis {
+	font-size: 16px;}
+
+@media (min-width: 480px) {
+	.tym {display: flex;} 
+	.osoba {width: 40%;}}
+
+@media (min-width: 1024px) {
+	.osoba {width: 20%;}}
